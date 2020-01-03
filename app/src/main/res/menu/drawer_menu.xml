@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_library_music"
+            android:title="Audios" />
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@drawable/ic_photo_library"
+            android:title="Photos" />
+        <item
+            android:id="@+id/nav_pdf"
+            android:icon="@drawable/ic_picture_as_pdf"
+            android:title="Pdf Files" />
+
+        <item
+            android:id="@+id/nav_sms"
+            android:icon="@drawable/ic_sms"
+            android:title="Messages" />
+
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_video_library"
+            android:title="Videos" />
+
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_content_paste"
+            android:title="Notes" />
+    </group>
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+</menu>
